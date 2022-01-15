@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+
+}
+h1{
+    font-size: 25px;
+    margin-left: 10%;
+
+}
+h2{
+    font-size: 35px;
+    margin-right: 16%;
+    margin-left: 5%;
+    font-weight:800;
+}
+nav{
+    margin-top: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    float: right;
+    margin-right: 35px;
+   margin-top: 3px;
+    
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background-color: rgb(216, 87, 115);
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+   color: whitesmoke;
+    
+}
+
+.half-width{
+    width: 70%;
+    padding-left:1px;
+    padding-right:5px;
+    margin-left: 2%;
+    margin-top: 10px;
+    
+   
+    
+}
+.half-width img{
+    width: 70%;
+    margin-right:2%;
+    margin-top: 10px;
+    padding-top: 2%;
+    background-color:wheat ;
+    border-radius: 60%;
+    transition-property: width;
+    transition-duration: 2s;
+    
+}
+.half-width img:hover{
+    width:80%;
+}
+.middle-point h2{
+    text-align: center;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.Influencer-equipment  equipment-banner img{
+    width:150px;
+    height: 104px;
+}
+.fa-star.filled{
+    color: #ffC014;
+}
+.fa-star .empty{
+    color:#AEAEAE;
+}
