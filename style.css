@@ -1,21 +1,39 @@
 body{
     margin: 0;
     font-family: 'Poppins',sans-serif;
+    background-color: #F3F1FF;
 
 }
-h1{
+main{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-left: 200px;
+}
+.container{
+    display: flex;
+    width: 870px;
+    padding: 50px;
+    background-color: #FFFFFF;
+   margin-top: 30px;
+   border-radius: 50px;
+   margin-left: 5px;
+   padding-left: 10px;
+}
+.header-influ{
     font-size: 25px;
     margin-left: 10%;
 
 }
-h2{
+ .half-width h2{
     font-size: 35px;
     margin-right: 16%;
     margin-left: 5%;
     font-weight:800;
 }
 nav{
-    margin-top: 3px;
+    margin-top: 5px;
+    
 }
 nav a{
     text-decoration: none;
@@ -27,12 +45,7 @@ nav a{
     
     
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 200px;
-    margin-right: 10%;
-    margin-left: 10%;
-}
+
 
 .anchor-button{
     text-decoration: none;
@@ -68,18 +81,37 @@ nav a{
 .half-width img:hover{
     width:80%;
 }
-.middle-point h2{
-    text-align: center;
-    margin-left: 15%;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.equipment-blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:20px;
+   
+   
+
 
 }
-.Influencer-equipment  equipment-banner img{
-    width:150px;
-    height: 104px;
+.equipment-blogs {
+    border-radius: 5px;
+    
+}
+
+
+.Influencer-equipment h2{
+    text-align: center;
+    padding-left:20px;
+
+}
+.equipment-blogs .equipment-banner img{
+  padding-right:20px;
+    width:224px;
+    height: 144px;
+}
+.equipment-info{
+    padding-right: 20px;
+}
+.equipment-detail{
+    display: flex;
+    align-items: center;
 }
 .fa-star.filled{
     color: #ffC014;
@@ -87,3 +119,19 @@ nav a{
 .fa-star .empty{
     color:#AEAEAE;
 }
+.text {
+    
+    padding-right:50px;
+    color:rgb(216, 87, 115);
+    
+}
+footer{
+    background-color: cornsilk;
+    text-align: center;
+    
+}
+.footer-influ {
+    font-size: 25px;
+    
+}
+
